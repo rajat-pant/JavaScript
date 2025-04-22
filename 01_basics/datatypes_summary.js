@@ -35,3 +35,25 @@ let myObj={
 const myFunc=function (){
         console.log("Hello World");
 }
+
+/* ********************************************* */
+//stcak(primitive),heap(non-primitive)
+
+let myYoutubename="rajatpant"
+
+let anothername="rajat"
+
+console.log(myYoutubename)
+console.log(anothername)
+
+let userOne={
+    email:"rajatpant@gmail.com",
+    upi: "user@ybl"
+}
+
+let userTwo=userOne
+
+userTwo.email="rajat@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
