@@ -1,4 +1,4 @@
-//for eaach loop
+//for each loop
 const coding=["js", "cpp", "java", "py"]
 
 // coding.forEach(function (item) {
